@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --lg-navbar-height: 160px
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+@media (min-width: 992px) { 
+
+  h2 {
+    font-size: 48px;
+  }
+
+}
+
+
+.navbar {
+  height: var(--lg-navbar-height);
+  background-color: #E84855;
+}
+
+.hero-section {
+  background-color: #E84855;
+  padding-bottom: 4rem;
+}
+
+.intro-section {
+  background-color: #0e0e0e;
+}
+
+.intro-section svg {
+  max-height: calc(100vh / 2.5);
+}
+
+
+.intro-section p {
+  font-size: 20px;
+}
+
+.divider-section {
+  background-color: #F9DC5C;
+}
+
+.divider-section svg {
+  height: 80px;
+  width: 80px;
+}
+
+.stay-updated-section {
+  background-color: #F9DC5C;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.stay-updated-section svg {
+  height: 80px;
+  width: 80px;
+}
+
+.stay-updated-section p {
+  max-width: 32rem;
+  text-align: center;
+}
+
+
+
+
+
+/* @media (min-width: 992px) { 
+
+  /* Make the sections of the splash page vh for better experience on larger screens 
+  .hero-section {
+    height: calc(100vh - var(--lg-navbar-height)); 
+  }
+
+} */
